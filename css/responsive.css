@@ -1,0 +1,112 @@
+/* responsive css */
+@media screen and (min-width: 768px) and (max-width: 1060px){
+    #data-content{  width:85%; }
+
+    .h-service-right{  position: absolute; right: 8px;    top: 24% !important;  width: 40%;     text-align: right;    padding-right: 30px; }
+    .h-service-left{   position: absolute; left: 8px;    top: 24%;  width: 32%;     text-align: left;    padding-left: 30px; }
+    .h-service-right h1,.h-service-left h1{    font-size:35px;  }
+    
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+.bhoechie-tab-menu .list-group>a.active:after{
+	content: '';
+    position: absolute;    /* left: 100%; */   
+    left: 50%;
+    /* right: 0; */
+    top: 110%;
+    /* margin-top: -13px; */
+    border-left: 0;
+    border-right: 13px solid transparent;
+    border-top: 13px solid #dedede;
+    border-left: 14px solid transparent;
+}
+.mar-sm0{  margin-left:0; margin-right:0;  }
+
+.p-info{    width:90%; }
+.h-service-left {left: 8px;
+    top: 24%;
+    width: 50%;
+    text-align: left;
+    padding-left: 1px;}
+ .h-service-right
+ {  position: absolute; right: 8px;
+    top: 25% !important;
+    width: 60%;
+    text-align: right;
+    padding-right: 10px; }   
+.h-service-right h1,.h-service-left h1{    font-size:18px;  }
+.kpo-size{  font-size:18px !important; }   
+.h-service-right p,.h-service-left p{display: none;}    
+
+
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+.navbar-toggler{     border:1px solid white !important;  margin-top: 9px; }
+.navbar-toggler:hover{  cursor: pointer;}
+.dropdown-menu.drop-black:before {
+    content: "";    width: 0;    left: 0;    right: 0;    margin: 0 auto;    position: absolute;    top: 35px;  }
+.nav-link{  text-align: center; }   
+#wrap{  width:100%; }
+#search_submit{height: 50px;    width: 30px; } 
+#search{    min-height:50px;}
+#search:focus{width:100%;}
+.nav-white li a {   border-bottom: 1px solid gray;    min-height: 50px;}
+.navbar-toggler span{   color: #9c9c9c;     }
+.how-to-contact li{ width: 49%; }
+.input-group.req-form-grp {display: flex; width: 100% !important; margin-bottom: 5px !important;}
+
+.bhoechie-tab:before{   width: 100%; }  
+.text-xs-center{    text-align: center; }
+.copyright{ float: none; text-align: center;}
+.p-detail:hover{        transform: scale(1.04,1.04);}
+
+.Who-We-Are p{  margin-top: 0px;}
+.project-sec{   padding:20px 0; }
+.project-sec a.btn2{    margin-top:0; }
+.eff-social{    border-bottom: 1px dotted #e2e2e2; }
+
+#data-content{width:90%;    width: 90%;
+    top: 60%;    height: 400px;    overflow-y: scroll; overflow-x: hidden;}
+.member-left{   width: 100%; }
+.member-right{  width:100%; }
+.member-right i{    top: -318px; right: 2px; }
+/* *  STYLE 3 */
+.style-3::-webkit-scrollbar-track{    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);    background-color: #F5F5F5;}
+
+.style-3::-webkit-scrollbar{    width: 6px;    background-color: #F5F5F5;}
+
+.style-3::-webkit-scrollbar-thumb{    background-color: #008b78;}
+#map,address{width: 100%;min-height: 200px; max-height: 500px}
+.contact-form{  width: 100%; }
+.col-50{    width: 100%; }
+.talk-center{   width: 100% }
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 768px) {
+
+.about-pg{  display: block; width: 100%; margin:0 auto; position: relative; }
+.h-about{    width: 50% !important;    top: 20% !important;    padding-left: 22px;  position: absolute;  }
+.h-about h1{    font-size: 21px; }
+.h-social{  text-align: center;}
+.h-social1{ float: none; text-align: center; }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 499px) {
+.h-social{  text-align: center;}
+.h-social1{ float: none; text-align: center; }
+.about-pg{  display: block; width: 100%; margin:0 auto; position: relative; }
+.h-about{    width: 100% !important;    top: 5% !important;    padding-left: 22px;  position: absolute;  }
+.h-about h1{    font-size: 21px; }
+.h-about p{ font-size:14px;    }
+
+}
+
+@media screen and (min-width: 460px) and (max-width: 480px){
+.logo{  width:60% !important; }
+}
+@media screen and (max-width: 320px){
+.logo{  width:80% !important; }
+}

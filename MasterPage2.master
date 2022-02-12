@@ -1,0 +1,207 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage2.master.cs" Inherits="efficacious_MasterPage2" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="software developer,software deisnger,website desinger,websites,e-smarts, e-smart-track ">
+  <meta name="keywords" content="Efficacious india limited,websites,software,printing,website design">
+    <title>Efficacious India Limited</title>
+    <link rel="icon" type="image/png" href="images/EfficaciousIndia2.png" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/tether.min.css">    
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab:400,700|Source+Sans+Pro:400,600|Faustina:500,600" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>   
+    
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <%--<header id="top-header">
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-6">
+			<ul class="h-social">
+				<li><a href="https://www.facebook.com/profile.php?id=100009143120129&ref=bookmarks"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+				<li><a href="https://twitter.com/EfficaciousInd"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+				<li><a href="https://www.linkedin.com/in/efficacious-india-5a7144126/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>	
+				<li><a href="https://plus.google.com/u/0/104956629708822726442"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+			</ul>
+		</div>
+		<div class="col-md-6">
+			<ul class="h-social1">
+        <li><a><i class="fa fa-phone-square" aria-hidden="true"></i>+91-22-49707524</a></li>
+        <li><a href="mailto:info@efficacious.co.in"><i class="fa fa-envelope" aria-hidden="true"></i>enquiry@efficacious.co.in </a></li>       
+      </ul>
+		</div>
+	</div>	
+</div>
+</header>--%>
+<nav class="navbar navbar-toggleable-md navbar-toggleable-sm bg-nav sticky-top">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#mob-nav" aria-controls="mob-nav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="fa fa-align-justify"></span>
+  </button>
+  <a class="navbar-brand" href="index.aspx"><img src="images/Efficacious-logo-New.png" class="d-block img-fluid logo"></a>
+
+  <div class="collapse navbar-collapse justify-content-end" id="mob-nav">
+    <ul class="navbar-nav nav-white">
+      <li class="nav-item">
+        <a class="nav-link" href="index.aspx">Home <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.aspx">About us</a>
+      </li>
+     
+     <%-- <li class="nav-item dropdown">
+              <a href="#" class="dropdown-toggle nav-link " data-toggle="dropdown">Services<b class="caret"></b></a>
+              <ul class="dropdown-menu drop-black py-0">
+                <li class="nav-item"><a class="nav-link active" href="web-development.aspx">Web Design And Development</a></li>
+                <li class="nav-item"><a class="nav-link" href="mobile-development.aspx">Mobile Application Development</a></li>
+                <li class="nav-item"><a class="nav-link" href="graphic.aspx">Graphic Designs</a></li>
+                <li class="nav-item"><a class="nav-link" href="pvc.aspx">PVC Card Print</a></li>
+                <li class="nav-item"><a class="nav-link" href="management.aspx">Management Consultant</a></li>
+                <li class="nav-item"><a class="nav-link" href="kpo.aspx">Knowledge Process Outsourcing</a></li>
+              </ul>
+       </li>--%>
+      <li class="nav-item dropdown">
+              <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">Products<b class="caret"></b></a>
+              <ul class="dropdown-menu drop-black py-0">
+                <li class="nav-item"><a class="nav-link" href="product1.aspx">E-smarts School</a></li>
+                <li class="nav-item"><a class="nav-link" href="product2.aspx">E-smart Track</a></li>
+                <li class="nav-item"><a class="nav-link" href="product3.aspx">E-smart Restaurant</a></li><!-- <li class="nav-item"><a class="nav-link" href="product4.html">E-smart Society</a></li>-->
+                <li class="nav-item"><a class="nav-link" href="product5.aspx">E-smart Health</a></li>
+                <li class="nav-item"><a class="nav-link" href="product6.aspx">E-smart Team</a></li>
+              </ul>
+       </li>
+        <li class="nav-item dropdown">
+              <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">Partners<b class="caret"></b></a>
+              <ul class="dropdown-menu drop-black py-0">
+                <%--<li class="nav-item"><a class="nav-link" href="channer_partner.aspx">Channel Partners</a></li>--%>
+                <li class="nav-item"><a class="nav-link" href="become_partner.aspx">Become Partners</a></li>                
+              </ul>
+       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="career.aspx">Careers</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.aspx">Contact Us</a>
+      </li>
+    <%-- <li class="nav-item" id="wrap">	
+  <form action="" autocomplete="on"><a class="nav-link">
+  <input id="search" name="search" type="text" placeholder="What're we looking for ?"><input id="search_submit" value="Rechercher" type="submit"></a>
+  </form>
+</li>--%>
+   </ul>
+    
+  </div>
+</nav>
+
+
+
+
+
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    <div class="clearfix"></div>
+<section id="copyright">
+<div class="container">
+<div class="row">
+      <div class="col-md-6">
+          <h6 class="text-white text-xs-center">Efficacious India Limited   © 2013-2019</h6>
+      </div>
+      <div class="col-md-6">
+        <ul class="copyright">
+          <li><a href="#">Disclaimer </a></li>
+          <li><a href="#">Terms & Condition </a></li>
+          <li><a href="privacy_policy.aspx">Privacy Policy </a></li>
+          <li><a href="site_map.aspx">Sitemap </a></li> 
+        </ul>
+      </div>
+      </div>  <!--row-->
+  </div>
+</section>
+
+    </div>
+    </form>
+   <script type="text/javascript" src="js/tether.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/wow.min.js"></script>
+<script type="text/javascript" src="js/typed.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<script>
+
+      // The following example creates a marker in Stockholm, Sweden using a DROP
+      // animation. Clicking on the marker will toggle the animation between a BOUNCE
+      // animation and no animation.
+
+      var marker,infoWindow;
+
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 17,
+          center: {lat: 19.0664345, lng: 73.0084902}
+        });
+
+        marker = new google.maps.Marker({
+          map: map,
+          draggable: false,
+          animation: google.maps.Animation.DROP,
+          position: {lat: 19.0665, lng: 73.00819}
+        });
+        marker.addListener('click', toggleBounce);
+      }
+
+      function toggleBounce() {
+        if (marker.getAnimation() !== null) {
+          marker.setAnimation(null);
+        } else {
+          marker.setAnimation(google.maps.Animation.BOUNCE);
+        }
+      }
+      
+    /*  infoWindow = new google.maps.InfoWindow;
+
+        // Try HTML5 geolocation.
+        if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(function(position) {
+            var pos = {
+              lat: position.coords.latitude,
+              lng: position.coords.longitude
+            };
+
+            infoWindow.setPosition(pos);
+            infoWindow.setContent('This Your Location.');
+            infoWindow.open(map);
+            map.setCenter(pos);
+          }, function() {
+            handleLocationError(true, infoWindow, map.getCenter());
+          });
+        } else {
+          // Browser doesn't support Geolocation
+          handleLocationError(false, infoWindow, map.getCenter());
+        }
+      
+      function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+        infoWindow.setPosition(pos);
+        infoWindow.setContent(browserHasGeolocation ?
+                              'Error: The Geolocation service failed.' :
+                              'Error: Your browser doesn\'t support geolocation.');
+        infoWindow.open(map);
+      }			*/
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBd69L5Z3wW2W4pyZmaITG8pRyGsnvem7E&callback=initMap">
+    </script>
+</script>
+</body>
+</html>
